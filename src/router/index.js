@@ -1,27 +1,19 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Router from 'vue-router'
+// 아래에 연결할 서브페이지(컴포넌트)를 import 
+import MainContent from '../components/MainContent.vue';
+import Sub1Content from '../components/Sub1Content.vue';
+import Sub2Content from '../components/Sub2Content.vue';
 
-Vue.use(VueRouter)
+Vue.use(Router)
 
-const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
-  }
-]
-
-const router = new VueRouter({
-  routes
+export default new Router({
+  mode: 'history',
+  base: process.env.BASE_URL,
+  routes: [
+    { path: '/', component: MainContent},
+    { path: '/main', component: MainContent},
+    { path: '/sub1', component: Sub1Content},
+    { path: '/sub2', component: Sub2Content}
+  ]
 })
-
-export default router
