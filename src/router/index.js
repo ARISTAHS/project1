@@ -11,9 +11,9 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    { path: '/', component: MainContent},
-    { path: '/main', component: MainContent},
-    { path: '/sub1', component: Sub1Content},
-    { path: '/sub2', component: Sub2Content}
+    { path: '/vue/', component: MainContent},
+    { path: '/vue/main', component: MainContent},
+    { path: '/vue/sub1', component: Sub1Content},
+    { path: '/vue/sub2', component: Sub2Content}
   ]
 })

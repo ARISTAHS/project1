@@ -32,6 +32,8 @@
      font-weight: bold;
  }
 
+ .swiper .swiper-slide img{width: 100%;}
+
 </style>
 
 <script>

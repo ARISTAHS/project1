@@ -4,8 +4,8 @@
   "placenm": "용산청소년센터",
   "telno": "027490102",
   "svcnm": "꿈키움체육관",
-  "svcurl": "https:\/\/yongsanyouth.or.kr\/mber\/plc\/rsp\/list.do?menuNo=1500200",
-  "imgurl": "https:\/\/yongsanyouth.or.kr\/cmm\/fms\/getImage.do?fileSn=0&atchFileId=FILE_000000000000033",
+  "svcurl": "https:yongsanyouth.or.kr/mber/plc/rsp/list.do?menuNo=1500200",
+  "imgurl": "https:yongsanyouth.or.kr\/cmm\/fms\/getImage.do?fileSn=0&atchFileId=FILE_000000000000033",
   "maxclassnm": "체육시설"
  },
  {
@@ -13,8 +13,8 @@
   "placenm": "용산청소년센터",
   "telno": "027490102",
   "svcnm": "꿈상상미술실",
-  "svcurl": "https:\/\/yongsanyouth.or.kr\/mber\/plc\/rsp\/list.do?menuNo=1500200",
-  "imgurl": "https:\/\/yongsanyouth.or.kr\/cmm\/fms\/getImage.do?fileSn=0&atchFileId=FILE_000000000000031",
+  "svcurl": "https:yongsanyouth.or.kr\/mber\/plc\/rsp\/list.do?menuNo=1500200",
+  "imgurl": "https:yongsanyouth.or.kr\/cmm\/fms\/getImage.do?fileSn=0&atchFileId=FILE_000000000000031",
   "maxclassnm": "교육강좌"
  },
  {
@@ -22,8 +22,8 @@
   "placenm": "용산청소년센터",
   "telno": "027490102",
   "svcnm": "꿈세움강당",
-  "svcurl": "https:\/\/yongsanyouth.or.kr\/mber\/plc\/rsp\/list.do?menuNo=1500200",
-  "imgurl": "https:\/\/yongsanyouth.or.kr\/cmm\/fms\/getImage.do?fileSn=0&atchFileId=FILE_000000000000027",
+  "svcurl": "https:yongsanyouth.or.kr\/mber\/plc\/rsp\/list.do?menuNo=1500200",
+  "imgurl": "https:yongsanyouth.or.kr\/cmm\/fms\/getImage.do?fileSn=0&atchFileId=FILE_000000000000027",
   "maxclassnm": "공간시설"
  },
  {
